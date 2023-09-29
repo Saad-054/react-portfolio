@@ -24,9 +24,9 @@ function Header() {
           <li className={`nav-item ${location.pathname === "/projects" ? "active" : ""}`}>
             <Link className="nav-link" to="/projects">My Work</Link> {/* Use Link */}
           </li>
-          <li className={`nav-item ${location.pathname === "/skills" ? "active" : ""}`}>
-            <Link className="nav-link" to="/skills">My Skills</Link> {/* Use Link */}
-          </li>
+          {/* <li className={`nav-item ${location.pathname === "/skills" ? "active" : ""}`}>
+            <Link className="nav-link" to="/skills">My Skills</Link> Use Link
+          </li> */}
           <li className={`nav-item ${location.pathname === "/contact" ? "active" : ""}`}>
             <Link className="nav-link" to="/contact">Contact Me</Link> {/* Use Link */}
           </li>
