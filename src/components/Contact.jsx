@@ -1,4 +1,3 @@
-// Contact.jsx
 import React from "react";
 
 function Contact() {
@@ -8,9 +7,9 @@ function Contact() {
       <p className="contact-description">Feel free to reach out to me using any of the following methods:</p>
       <div className="contact-info">
         <p>Email: <a href="mailto:saadsiddiqui@gmail.com">saadsiddiqui@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/saad-siddiqui-engineer/">LinkedIn Profile</a></p>
-        <p>GitHub: <a href="https://github.com/Saad-054/">GitHub Profile</a></p>
-        {/* Add additional contact details as needed */}
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/saad-siddiqui-engineer/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/Saad-054/" target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
+        <p>CV: <a href="../" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a></p>
       </div>
       <div className="contact-form">
         <h6>Send me a message:</h6>

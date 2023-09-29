@@ -7,34 +7,37 @@ import pastelImage from "../assets/images/pastel.png";
 
 const projectsData = [
   {
-    title: "LED Wall",
-    deployedLink: "#",
-    githubLink: "#",
+    title: "Server APIs: Weather Dashboard",
+    deployedLink: "https://saad-054.github.io/Weather_Dashboard/",
+    githubLink: "https://github.com/Saad-054/Weather_Dashboard",
     imageSrc: ledImage, // Use the imported image
-    description: "Node/IoT",
+    description: "Server APIs: Weather Dashboard",
+    // weather image
   },
   {
-    title: "Calculator",
-    deployedLink: "#",
-    githubLink: "#",
-    imageSrc: calcImage, // Use the imported image
-    description: "React/JavaScript/CSS",
-  },
-  {
-    title: "Run Buddy",
-    deployedLink: "#",
-    githubLink: "#",
+    title: "Third-Party APIs: Daily Planner App",
+    deployedLink: "https://saad-054.github.io/Daily-Planner_App/",
+    githubLink: "https://github.com/Saad-054/Daily-Planner_App",
     imageSrc: runImage, // Use the imported image
-    description: "HTML/CSS",
+    description: "Third-Party APIs: Daily Planner App",
+    // scheduler
   },
   {
-    title: "Pastel",
-    deployedLink: "#",
-    githubLink: "#",
+    title: "Web APIs: Code Quiz",
+    deployedLink: "https://saad-054.github.io/Code_Quiz/",
+    githubLink: "https://github.com/Saad-054/Code_Quiz",
     imageSrc: pastelImage, // Use the imported image
-    description: "MERN Stack",
+    description: "Web APIs: Code Quiz",
+    // quiz
   },
-  // Add more project objects as needed
+  {
+    title: "JavaScript: Password Generator",
+    deployedLink: "https://saad-054.github.io/Password-Generator/",
+    githubLink: "https://github.com/Saad-054/Password-Generator",
+    imageSrc: runImage, // Use the imported image
+    description: "JavaScript: Password Generator",
+    // password
+  },
 ];
 
 function Projects() {
