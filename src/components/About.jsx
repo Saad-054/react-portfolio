@@ -1,11 +1,29 @@
-// About.js
 import React from "react";
 
-const About=() => {
+const About = () => {
+  const sectionStyles = {
+    backgroundColor: "#F8F9FA", // Light gray background color
+    padding: "40px 0",
+    color: "#333",
+  };
+
+  const headingStyles = {
+    fontSize: "2rem",
+    marginBottom: "20px",
+    color: "#007BFF", // Blue color for the heading
+  };
+
+  const descriptionStyles = {
+    fontSize: "1.2rem",
+    maxWidth: "800px",
+    margin: "0 auto",
+    color: "#555", // Dark gray text color
+  };
+
   return (
-    <section className="text-center">
-      <h2>About Me</h2>
-      <p className="about-description">
+    <section style={sectionStyles} className="text-center">
+      <h2 style={headingStyles}>About Me</h2>
+      <p style={descriptionStyles} className="about-description">
         As a junior web developer, I am passionate about creating engaging and user-friendly websites. With a strong foundation
         in coding and a drive for learning new technologies, I continuously expand my skills to stay up-to-date with industry
         trends. I have proficiency in HTML, CSS, and JavaScript—the building blocks of the web. I develop responsive and
