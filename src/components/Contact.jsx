@@ -1,4 +1,8 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import Container from "react-bootstrap/Container";
+import cvPdf from "../assets/CV/cv.pdf"; // Import the images
 
 function Contact() {
   return (
@@ -9,7 +13,7 @@ function Contact() {
         <p>Email: <a href="mailto:saadsiddiqui@gmail.com">saadsiddiqui@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/saad-siddiqui-engineer/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
         <p>GitHub: <a href="https://github.com/Saad-054/" target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
-        <p>CV: <a href="../" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a></p>
+        <p>CV: <a href={cvPdf} target="_blank" rel="noopener noreferrer">Download CV (PDF)</a></p>
       </div>
       <div className="contact-form">
         <h6>Send me a message:</h6>
@@ -23,7 +27,7 @@ function Contact() {
           <div className="form-group">
             <textarea className="form-control" rows="4" placeholder="Your Message"></textarea>
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <Button >Submit</Button>
         </form>
       </div>
     </section>
