@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Project"; // Import the Project component here
-import weatherImage from "../assets/images/weather.jpg"; // Import the images
+// import weatherImage from "../assets/images/weather.jpg"; // Import the images
 import passwordImage from "../assets/images/password.webp";
 import schedulerImage from "../assets/images/scheduler.jpg";
 import quizImage from "../assets/images/quiz.jpg";
@@ -10,7 +10,7 @@ const projectsData = [
     title: "Server APIs: Weather Dashboard",
     deployedLink: "https://saad-054.github.io/Weather_Dashboard/",
     githubLink: "https://github.com/Saad-054/Weather_Dashboard",
-    imageSrc: weatherImage, // Use the imported image
+    // imageSrc: weatherImage, // Use the imported image
     description: "Server APIs: Weather Dashboard",
     // weather image
   },
