@@ -1,9 +1,9 @@
 import React from "react";
 import Project from "./Project"; // Import the Project component here
 import weatherImage from "../assets/images/weather1.jpg"; 
-import passwordImage from "../assets/images/password.webp";
-import schedulerImage from "../assets/images/scheduler.jpg";
-import quizImage from "../assets/images/quiz.jpg";
+import passwordImage from "../assets/images/password1.webp";
+import schedulerImage from "../assets/images/scheduler1.jpg";
+import quizImage from "../assets/images/quiz1.jpg";
 
 const projectsData = [
   {
